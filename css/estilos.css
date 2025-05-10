@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef1f5;
+}
+
+.main-header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-header .welcome a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+input, button, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-links a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.dashboard {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lista-tareas li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.acciones a {
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.btn-agregar {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
